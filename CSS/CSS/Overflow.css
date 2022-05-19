@@ -1,0 +1,26 @@
+p {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div {
+    display: inline-block;
+
+    margin: 30px 50px;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(247, 255, 147);
+    border-radius: 10px;
+    border: 4px solid rgb(0, 85, 85);
+}
+
+#div1 {
+    overflow: auto; /*lo que sale del elemento lo esconde y agrega un scroll al contenedor*/
+}
+
+#div2 {
+    overflow: hidden; /*Solo esconde lo que no entra en la caja*/
+} 
+
+
+

@@ -1,0 +1,54 @@
+div{
+    font-family: cursive;
+    font-size: 18px;
+}
+/*========== Inicializo el flex============*/
+.flex-container {
+    display: flex;
+    flex-direction: row; /*-reverse Lo modifica de derecha a izquierda*/
+    flex-wrap: wrap; /*Cuando El contenedor no entra más en la página lo tira para abajo*/
+}
+
+.flex-item {
+    background-color: rgb(6, 154, 142);
+    margin: 15px;
+    padding: 50px;
+    height: 100px;
+    width: 200px;
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+/*============ FLEX DIRECTION ===========*/
+
+.flex-direction {
+    display: flex;
+    flex-direction: column; /*-reverse Lo modifica de abajo hacia arriba*/
+    flex-wrap: wrap;
+    /*El Flex Direction y Flex wrap Se pueden escribir de manera conjunta*/
+    flex-flow: column wrap;
+}
+
+.red {
+    background-color: red;
+}
+
+/*========== Justify content ===========*/
+
+.justify-content {
+    display: flex;
+    justify-content: center; /*space-arround, space-between, space-evenly*/ /*MAIN AXIS EJE X*/
+
+}
+
+/*========== Aling Items ===========*/
+
+.aling-items {
+    display: flex;
+    height: 300px;
+    align-items: flex-start; /*flex-end, flex-center, space-arround, space-between, space-stretch;*/
+    
+}

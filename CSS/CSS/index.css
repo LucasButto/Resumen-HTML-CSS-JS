@@ -23,9 +23,24 @@ nav ul li {
 nav li a {
     background-color: rgb(3, 129, 119);
     border-radius: 5%;
-    padding-top: 10px;
+    padding: 5px;
     margin-top: 3px;
     display: block;
-    color: black;
     font-weight: 700;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(245, 255, 104);
+}
+
+a:active {
+    color: red;
 }

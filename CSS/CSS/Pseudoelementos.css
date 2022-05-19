@@ -1,0 +1,48 @@
+div {
+    width: 500px;
+    margin: 30px auto;
+    background-color: rgb(247, 255, 147);
+    padding: 15px;
+    border: 4px solid rgb(0,85,85);
+    border-radius: 15px;
+}
+
+
+.texto::first-line { /*NO SE APLICA A LOS INLINE*/
+    font-size: 35px;
+    color: rgb(13, 0, 128);
+}
+
+.texto::first-letter { /*NO SE APLICA A LOS INLINE*/
+    color: red;
+}
+
+form{
+    margin:100px auto;
+    display:block;
+    background-color:rgb(247, 255, 147);
+    padding:50px;
+    width:50%;
+    border-radius: 15px;
+    border: 4px solid rgb(0, 85, 85);
+}
+input{
+    padding:6px;
+    width:100%
+}
+
+input::placeholder {
+    font-family: cursive;
+    font-size: 25px;
+    color: red;
+}
+
+input::selection {
+    background-color: rgb(0, 85, 85);
+    color: rgb(232, 248, 0);
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+}
