@@ -28,3 +28,10 @@ header h1{
     background-color: rgb(0, 85, 85);
     margin: 30px 0px;
 }
+
+#volver {
+    margin-bottom: -30px;
+}
+#volver a {
+    color: rgb(6, 154, 142);
+}
