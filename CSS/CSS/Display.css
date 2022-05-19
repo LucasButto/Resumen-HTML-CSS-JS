@@ -1,0 +1,35 @@
+*{
+    font-size: 40px;
+}
+
+#h3-linea {
+    display: inline; /*Convierte un elemento en bloque en uno en linea*/
+}
+
+#b-bloque {
+    display: block; /*Convierte un elemento en linea en uno en bloque*/
+    height: 150px; /* Ajustamos la altura del elemento el bloque*/
+    width: 100%; /* Ajustamos el ancho del elemento el bloque*/
+}
+
+b, h3 {
+    /*para que se vea mas grafico el ejemplo*/
+    background-color: rgb(247, 255, 147); 
+    margin: 5px;
+}
+
+div{
+    width:150px;
+    height:150px;
+    margin:20px;
+    border:10px solid red;
+    background:yellow
+}
+
+.inline div{
+    display: inline;
+}
+
+.inline-block div{
+    display: inline-block;
+}
