@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+/* ================ NAV ================ */
+
+nav {
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 20%;
+    text-align: center;
+    background-color: rgb(6, 154, 142);
+    border-radius: 5%;
+    padding: 0px 0px 10px 0px
+}
+nav ul {
+    padding-left: 5%;
+    width: 90%;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+}
+nav li a {
+    background-color: rgb(3, 129, 119);
+    border-radius: 5%;
+    padding-top: 10px;
+    margin-top: 3px;
+    display: block;
+    color: black;
+    font-weight: 700;
+}

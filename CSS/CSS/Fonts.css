@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap'); /* importamos una fuente de google*/
+
+h3{
+    font-size:25px;
+    text-align: center;
+ }
+
+ h3{
+  font-size:5em; /* Ajusta el tamaño del texto*/
+  font-family:roboto; /*Especifica la tipografía del texto*/
+  line-height:2; /* Ajusta el tamaño del alto de la caja del texto*/
+  font-weight: 400px; /* Ajusta el grosor del texto*/
+  color: firebrick; /*establece el color del texto*/
+ }

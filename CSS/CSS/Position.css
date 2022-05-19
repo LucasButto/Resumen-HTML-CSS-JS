@@ -1,0 +1,90 @@
+p, div {
+    font-family: roboto;
+}
+
+p{
+    background-color: rgb(247, 255, 147);
+    height: 190px;
+    width: 500px;
+    text-align: center;
+    padding: 50px 20px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 5px solid rgb(0, 85, 85);
+    border-radius: 10px;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border: 3px solid black;
+    margin-left: 50px;
+}
+
+.caja1-static{
+    background-color: red;
+    position: static;
+}
+
+.caja1-relative{
+    background-color: red;
+    position: relative; /*desplaza el cuadro pero guarda su lugar original*/
+    left: 150px;
+}
+
+.caja2-static{
+    background-color: blue;
+    position: static;
+}
+
+.caja2-absolute{
+    background-color: blue;
+    position: absolute; /*desplaza el cuadro pero no guarda su lugar original*/
+    left: 150px;
+}
+
+.caja3-static{
+    background-color: yellow;
+    position: static;
+}
+.caja3-sticky{
+    background-color: yellow;
+    position: sticky;
+    top: 10px;
+    left: 150px;
+}
+
+.caja4-static{
+    background-color: green;
+    position: static;
+}
+.caja4-otor{
+    background-color: green;
+}
+
+#Title-z-index {
+    font-size: 50px;
+    text-align: center;
+}
+
+.caja1-zindex {
+    background-color: red;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 0;
+}
+
+.caja2-zindex {
+    background-color: blue;
+    position: relative;
+    z-index: 1px;
+}
+
+#arriba {
+    z-index: 2;
+    opacity: .5; /*le da opacidad al objeto*/
+}
+

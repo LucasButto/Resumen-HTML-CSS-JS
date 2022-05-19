@@ -1,0 +1,62 @@
+*{
+    font-size: 40px;
+}
+/*=========== TRANSFORMAR CAJAS EN LINEAS Y VICEVERSA ============*/
+#h3-linea {
+    display: inline; /*Convierte un elemento en bloque en uno en linea*/
+}
+
+#b-bloque {
+    display: block; /*Convierte un elemento en linea en uno en bloque*/
+    height: 150px; /* Ajustamos la altura del elemento el bloque*/
+    width: 100%; /* Ajustamos el ancho del elemento el bloque*/
+}
+
+b, h3 {
+    /*para que se vea mas grafico el ejemplo*/
+    background-color: rgb(247, 255, 147); 
+    margin: 5px;
+}
+
+#Ejemplo-cajas-lineas {
+    /*para que se vea mas grafico el ejemplo*/
+    padding: 50px;
+}
+/*=========== PROPIEDADES DE LAS CAJAS ============*/
+.Propiedades-cajas{
+    background-color: rgb(247, 255, 147); /* Indicamos el color del fondo*/
+    display: inline-block; /*Convierte un elemento en bloque en uno en linea pero conservando las propiedades de un bloque*/
+    
+    padding-top: 40px ;     /*añade una separacion entre el borde superior de la caja y el elemento dentro*/
+    padding-bottom: 30px ;  /*añade una separacion entre el borde inferior de la caja y el elemento dentro*/
+    padding-left: 20px ;    /*añade una separacion entre el borde izquierdo de la caja y el elemento dentro*/
+    padding-right: 10px ;   /*añade una separacion entre el borde derecho de la caja y el elemento dentro*/
+    padding: 40px/*top*/ 30px/*right*/ 20px /*bottom*/10px/*left*/; /*es la forma conjunta de agregar los 4 paddings*/
+    
+    height: 300px;  /*Defino el alto de la caja*/
+    width: 500px;   /*Defino el ancho de la caja*/
+
+    text-align: center; /*Centra el texto de la caja*/
+
+    margin: 40px/*top*/ 30px/*right*/ 20px /*bottom*/10px/*left*/; /*Añade distancia entre las cajas, al igual que padding existe margin top,left,bottom y right*/
+
+    border-radius: 10px; /*Redondea la caja*/
+
+    border: 4px black solid; /*Agrega un borde a la caja (solid un borde solido, dashed un borde con linea punteada, double un borde con 2 lineas*/
+
+    box-shadow: 2px /*eje x*/ 4px /*eje y*/ 15px /*tamaño de la sombra*/ 5px/*Rellena la sombra*/ rgb(0, 0, 0) /*color*/; /*Agrega una sombra a la caja*/
+    
+    text-shadow: 5px /*eje x*/5px /*eje y*/ 10px /*tamaño de la sombra*/ red /*color*/; /*de igual manera que el box-shadow pero para texto*/
+}
+
+img {
+    height: 350px;
+    margin-left: 200px;
+    border-radius: 10px;
+    border: 4px solid black;
+    box-shadow: 10px 12px 20px rgb(240, 81, 81);
+}
+
+#volver {
+    padding-left: 20px;
+}

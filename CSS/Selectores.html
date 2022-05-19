@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Resumen css</title>
+    <link rel="shorcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="/CSS/normalize.css">
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <link rel="stylesheet" href="/CSS/Selectores.css">
+</head>
+<body>
+    <header>
+        <h1>Selectores</h1>
+    </header>
+    
+    <ul>
+        <li>* (universal): Selector que aplica a todos los elementos.</li>
+        <li>Selector de tipo: Los que mencionamos al elemento directamente (hx, p, ul, table, etc)</li>
+        <li class="clase">.NombreDeLaClase (Selector por clases): Modifica todos los elementos que contienen esa clase</li>
+        <h3>Sin clase</h3>
+        <h3 class="clase">Con clase</h3>
+        <h3>Sin clase</h3>
+        <li id="identificador">#NombreDelID Selector por ID: Modifica solo los elementos que contienen ese identificador, a diferencia de la clase los id deben ser unicos</li>
+        <li>[NombreDelAtributo="ValorDelAtributo"] Selector por atributo: Modifica todos los elementos que contienen tanto el nombre como el valor del atributo</li>
+        <input type="text" value="Modificado por atributo">
+        <li>Selector por descendencia: se aplica a los elementos que están dentro de otro elemento</li>
+        <h3>titulo sin negrita fuera del div</h3>
+        <div>
+            <h3><b>titulo con negrita dentro del div</b></h3>
+            <h3>titulo sin negrita dentro del div</h3>
+        </div>
+        <li >Selector por pseudoclases: Una pseudoclase CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. Por ejemplo, :hover aplicará un estilo cuando el usuario haga hover sobre el elemento especificado por el selector.</li>
+        <h3><b>titulo con pseudoclase</b></h3>
+    </ul>
+    <h2><a href="/index.html">Volver</a></h2>
+</body>
+</html>
