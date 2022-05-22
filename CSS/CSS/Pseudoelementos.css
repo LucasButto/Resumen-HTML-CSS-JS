@@ -42,7 +42,15 @@ input::selection {
     color: rgb(232, 248, 0);
 }
 
-h3 {
+p {
     font-size: 50px;
     text-align: center;
+}
+
+p::before {
+    content: "Texto con un before "; /*No aparece en el dom, no puede ser seleccionado por el usuario*/
+}
+
+p::after {
+    content: " Texto con un after";/*No aparece en el dom, no puede ser seleccionado por el usuario*/
 }
