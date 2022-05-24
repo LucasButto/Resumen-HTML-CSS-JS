@@ -1,0 +1,57 @@
+#descripcion{
+    font-family: roboto;
+    font-size: 20px;
+    background-color: rgb(247, 255, 147);
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    padding: 50px 20px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 5px solid rgb(0, 85, 85);
+    border-radius: 10px;
+}
+
+div {
+    margin: 50px 40%;
+    width: 300px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.226);
+    
+}
+
+.contain img { /* El contenido reemplazado está dimensionado para mantener su relación de aspecto mientras se ajusta dentro del cuadro de contenido del elemento*/
+    height: 100%;
+    width: 100%;
+    border: 3px solid red;
+    object-fit: contain;
+}
+
+.fill img { /*Modifica el tamaño del elemento remplazado para llenar el cuadro de contenido. El objeto completo ocupará todo el espacio de la caja.*/
+    height: 100%;
+    width: 100%;
+    border: 3px solid red;
+    object-fit: fill;
+}
+
+.cover img { /*El contenido reemplazado se dimensiona para mantener su relación de aspecto mientras llena el cuadro de contenido completo del elemento.*/
+    height: 100%;
+    width: 100%;
+    border: 3px solid red;
+    object-fit: cover;
+}
+
+.none img { /*El contenido reemplazado no se redimensiona*/
+    height: 100%;
+    width: 100%;
+    border: 3px solid red;
+    object-fit: none;
+}
+
+.scale-down img { /*El contenido se dimensiona como si none o contain estuvieran especificados, lo que resultaría en un tamaño de objeto concreto más pequeño.*/
+    height: 100%;
+    width: 100%;
+    border: 3px solid red;
+    object-fit: scale-down;
+}

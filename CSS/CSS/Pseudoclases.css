@@ -1,0 +1,87 @@
+#descripcion{
+    font-family: roboto;
+    font-size: 20px;
+    background-color: rgb(247, 255, 147);
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    padding: 50px 20px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 5px solid rgb(0, 85, 85);
+    border-radius: 10px;
+}
+
+.Caja1 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(247, 255, 147);
+    border-radius: 15px;
+    border: 3px solid rgb(0, 85, 85);
+    text-align: center;
+    font-size: 50px;
+    margin: 20px auto;
+}
+
+.Caja1:hover { /*Modifica el elemento solo al pasar por encima con el mouse*/
+    height: 150px;
+    width: 300px;
+    background-color: rgb(6, 154, 142);
+    border: 4px solid rgb(247, 255, 147);
+    border-radius: 0px;
+    color: white;
+    transition: all 1s;
+}
+
+a {
+    display: block;
+    text-align: center;
+    font-size: 50PX;
+}
+
+.no-visitado:link{ /*Modifica solo los links no visitados*/
+    color: red;
+}
+
+a:visited {
+    font-size: 50px;
+}
+
+#visitado:visited { /*Modifica solo los links visitados*/
+    color:rgb(0, 0, 0);
+}
+
+button { 
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(247, 255, 147);
+    border-radius: 15px;
+    font-size: 30px;
+    font-family: roboto;
+}
+
+
+button:active { /*Modifica el elemento solo al presionarlo*/
+    background-color: rgb(6, 154, 142);
+}
+
+input { 
+    display: block;
+    margin: auto;
+    background-color: lightcoral;
+    width: 300px;
+    height: 50px;
+    transition: background 1s, padding 1s, width 1s, height 1s;
+    font-size: 20px;
+}
+
+input:focus { /* Representa un elemento (como una entrada de formulario) que ha recibido el foco. */
+    background-color: white;
+    padding: 20px;
+    width: 350px;
+    height: 100px;
+}
+
