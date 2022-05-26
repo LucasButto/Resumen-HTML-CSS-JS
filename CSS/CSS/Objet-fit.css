@@ -55,3 +55,11 @@ div {
     border: 3px solid red;
     object-fit: scale-down;
 }
+
+.objet-position img { /*Determina la posicion del elemento dentro de la caja.*/
+    height: 100%;
+    width: 100%;
+    border: 3px solid red;
+    object-fit: scale-down;
+    object-position: top right;
+}

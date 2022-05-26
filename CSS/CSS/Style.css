@@ -32,3 +32,8 @@ header h1{
 #volver a {
     color: rgb(255, 255, 255);
 }
+
+#volver a:active {
+    color: red;
+    cursor: progress;
+}
