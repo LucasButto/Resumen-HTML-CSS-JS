@@ -54,9 +54,18 @@ h3 {
 
 /*========== Aling Items ===========*/
 
-.aling-items {
+.aling-items { /*Establece el valor align-self sobre todos los descendientes directos de un grupo. La propiedad align-self indica la alineación de un elemento dentro del bloque que lo contiene. */
     display: flex;
     height: 300px;
-    align-items: center; /*flex-end, center, space-arround, space-between, space-stretch;*/
-    
+    flex-wrap: wrap;
+    align-items: center; /*flex-end, center, space-arround, space-between, space-stretch;*/ /*CROSS AXIS EJE X*/
+}
+
+/*========== Aling Content ===========*/
+
+.aling-content { /*Lo mismo que el aling items pero ajusta cuando las cajas se van para abajo*/
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    align-content: center; /*flex-end, center, space-arround, space-between, space-stretch;*/ /*CROSS AXIS EJE X*/
 }

@@ -50,6 +50,7 @@ a:visited {
 
 #visitado:visited { /*Modifica solo los links visitados*/
     color:rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 button { 
