@@ -1,0 +1,66 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(37, 37, 37);
+    margin: 50px 150px;
+    border-radius: 15px;
+}
+
+.form {
+    width: 370px;
+    min-width: 350px;
+    flex-grow: 1;
+    text-align: center;
+    padding: 50px;
+}
+
+.form__input {
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0px;
+    border: none;
+    border-bottom: 3px solid rgb(16, 202, 119);
+    background-color: transparent;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.form__input:focus {
+    /*background: linear-gradient(to bottom, transparent, rgb(51, 51, 51)); otra opción que no queda mal*/
+    background-color: rgb(51, 51, 51);
+    border-bottom: 3px solid rgb(65, 140, 238);
+    outline: none;
+}
+
+.form textarea {
+    min-height: 150px;
+    resize: none;
+}
+
+.form-img{
+    flex-grow: 1;
+    display: flex;
+    padding: 50px;
+    width: 40%;
+}
+
+.form-img div{
+    padding: 10px;
+}
+
+.img-container {
+    margin: auto;
+}
+
+.img-container div {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px 50%;
+    text-align: center;
+    padding: 40px;
+}
+
+.form-img img{
+    width: 50%;
+}

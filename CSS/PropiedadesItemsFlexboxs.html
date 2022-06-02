@@ -12,6 +12,97 @@
         <h1>Propiedades de los items en el Flexbox</h1>
     </header>
 
+    <h2 class="separador">Flex Grow</h2>
+    <section>
+        <div class="flex-container resize">
+            <div class="flex-item">
+                caja 1 grow 0
+            </div>
+            <div class="flex-item">
+                caja 2 grow 0
+            </div> 
+            <div class="flex-item">
+                caja 3 grow 0
+            </div>
+        </div>
+
+        <div class="flex-container resize">
+            <div class="flex-item Grow1">
+                caja 1 grow 1
+            </div>
+            <div class="flex-item Grow1">
+                caja 2 grow 1
+            </div>
+            <div class="flex-item Grow1">
+                caja 3 grow 1 
+            </div>
+        </div>
+        
+        <div class="flex-container resize">
+            <div class="flex-item Grow2">
+                caja 1 grow 2
+            </div>
+            <div class="flex-item">
+                caja 2 grow 0
+            </div>
+            <div class="flex-item Grow1">
+                caja3 grow 1
+            </div>
+        </div>
+    </section>
+
+    <h2 class="separador">Flex basis</h2>
+    <div class="flex-container resize">
+        <div class="flex-item Grow1 flex-basis">
+            caja1
+        </div>
+        <div class="flex-item Grow1">
+            caja2
+        </div>
+        <div class="flex-item Grow1">
+            caja3
+        </div>
+    </div>
+
+    <h2 class="separador">Flex Shrink</h2>
+    <div class="flex-container resize nowrap">
+        <div class="flex-item Grow1 flex-shrink newwidth">
+            caja1
+        </div>
+        <div class="flex-item Grow1 newwidth">
+            caja2
+        </div>
+        <div class="flex-item Grow1 newwidth">
+            caja3
+        </div>
+    </div>
+
+    <h2 class="separador">Order</h2>
+    <section>
+        <div class="flex-container resize">
+            <div class="flex-item Grow1 flex-basis order">
+                caja1
+            </div>
+            <div class="flex-item Grow1">
+                caja2
+            </div>
+            <div class="flex-item Grow1">
+                caja3
+            </div>
+        </div>
+        <div class="flex-container resize reverse">
+            <div class="flex-item Grow1 flex-basis order">
+                caja1
+            </div>
+            <div class="flex-item Grow1">
+                caja2
+            </div>
+            <div class="flex-item Grow1">
+                caja3
+            </div>
+        </div>
+    </section>
+
     <h2 class="separador" id="volver"><a href="/index.html">Volver</a></h2>
 </body>
 </html>

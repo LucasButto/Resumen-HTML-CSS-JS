@@ -1,0 +1,68 @@
+div{
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.resize { /*Establezco una clase para redimensionar el flex y ver el comportamiento de las cajas*/
+    resize: auto;
+    overflow: auto;
+    border: 3px solid rgb(0, 85, 85);
+    margin: 50px;
+}
+
+/*========== Inicializo el flex============*/
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /*Cuando El contenedor no entra más en la página lo tira para abajo*/
+}
+
+.flex-item {
+    background-color: rgb(6, 154, 142);
+    margin: 15px;
+    padding: 50px;
+    height: 100px; /*Las cajas no serán menor que el tamaño especificado aquí*/
+    width: 200px;
+}
+
+/*========== Flex Grow ============*/
+
+.Grow1 {
+    text-align: center; 
+    flex-grow: 1; /*Especifica qué cantidad del espacio restante dentro del contenedor flexible debería ocupar el item en cuestión.*/
+}
+
+.Grow2 {
+    flex-grow: 2; /*Divide el espacio sobrante en 2 partes*/
+}
+
+/*========== Flex Basis ============*/
+
+.flex-basis {
+    flex-basis: 600px; /* Es como un width especial para flex y le da mas importancia que el width*/
+    width: 100px;
+}
+
+/*========== Flex Shrink ============*/
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.newwidth {
+    width: 300px;
+}
+
+.flex-shrink {
+    flex-shrink: 2; /*Los flex items se encogerán para llenar el contenedor de acuerdo a su número flex-shrink (por defecto llevan 1) al asignarle un 2 se encoge el doble que los otros por px*/
+}
+
+/*========== Order ============*/
+
+.order {
+    order: 1; /*Al elemento flex de mayor tamaño lo posiciona al final en el main-axis*/
+}
+
+
+.reverse {
+    flex-direction: row-reverse; /*Al darle un row-reverse el final se invierte pero se modifica igualmente el orden de las cajas como la 2 y 3*/
+}
