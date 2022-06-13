@@ -4,16 +4,19 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(37, 37, 37);
-    margin: 50px 150px;
+    margin: 50px auto;
     border-radius: 15px;
+    max-width: 1100px;
 }
 
 .form {
     width: 370px;
     min-width: 350px;
+    max-width: 500px;
     flex-grow: 1;
     text-align: center;
     padding: 50px;
+    order: 5;
 }
 
 .form__input {
@@ -39,11 +42,31 @@
     resize: none;
 }
 
+.form__input[type="submit"] {
+    background-color: rgb(13, 182, 106);
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    border-bottom: none;
+    padding: 12px;
+}
+
+.form__input[type="submit"]:hover {
+    background-color: rgb(28, 226, 137);
+}
+
+.form__input[type="submit"]:active {
+    background: linear-gradient(to top, rgb(255, 255, 255), rgb(28, 226, 137)) ;
+}
+
 .form-img{
     flex-grow: 1;
     display: flex;
     padding: 50px;
     width: 40%;
+    min-width: 300px;
+    max-width: 500px;
+    order: 1;
 }
 
 .form-img div{
